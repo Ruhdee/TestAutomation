@@ -37,6 +37,18 @@ NEXT_BUTTON_Q1 = {'x': 850, 'y': 1098}
 # Next question button - QUESTION 2+ (after screen shift)
 NEXT_BUTTON_Q2 = {'x': 814, 'y': 1071}
 
+# ============================================================================
+# SCREEN SHIFT DETECTION
+# ============================================================================
+
+# Enable/disable automatic screen shift detection
+USE_SCREEN_SHIFT_DETECTION = True  # True = Auto-detect, False = Use manual setting
+
+# Manual coordinate selection (only used if USE_SCREEN_SHIFT_DETECTION = False)
+# Set to 'Q1' to always use Question 1 coordinates
+# Set to 'Q2' to always use Question 2+ coordinates
+MANUAL_COORDINATE_SET = 'Q2'  # Options: 'Q1' or 'Q2'
+
 # Gemini Screen Coordinates
 GEMINI_INPUT_FIELD = {'x': 1044, 'y': 981}
 GEMINI_SEND_BUTTON = {'x': 1853, 'y': 1042}

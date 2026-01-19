@@ -20,6 +20,7 @@ build/
 
 # Project specific
 debug_screenshots/
+reference_images/
 *.log
 temp_question.png
 question_*.png
